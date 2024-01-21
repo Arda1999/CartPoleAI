@@ -85,12 +85,13 @@ Graphics:
  
 
 Example of graph the reward values that came out before the training: 
+<img width="619" alt="Screenshot 2024-01-21 023111" src="https://github.com/Arda1999/CartPoleAI/assets/62334668/cef47bb4-fd3e-479b-94a7-782e935683f3">
 
  
 
 
 Example of graph the reward values after the training: 
-<img width="319" alt="Screenshot 2024-01-21 023138" src="https://github.com/Arda1999/CartPoleAI/assets/62334668/7373f894-221e-4d8a-97bd-1b2d6ed4084a">
+<img width="619" alt="Screenshot 2024-01-21 023138" src="https://github.com/Arda1999/CartPoleAI/assets/62334668/7373f894-221e-4d8a-97bd-1b2d6ed4084a">
 
  
 
