@@ -1,7 +1,7 @@
 # CartPole
 Cart Pole  With RL Algorithm
 
-Introduction: 
+## Introduction
 
 This document describes in detail a reinforcement learning application using the Proximal Policy Optimization (PPO) algorithm. The goal of the project is to solve a Cart Pole task with the PPO algorithm. This document contains details such as the project objectives, the reasons for choosing the algorithm used, and how certain parameters were set. 
 
