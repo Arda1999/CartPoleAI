@@ -99,7 +99,7 @@ Example of graph the reward values after the training:
 
 As can be seen in the graphs, although there was very variable score values before the training, the values became constant after a certain point after the training. 
 
-**Example Output:**
+Example Output:
 
 Before the train reward values:  
 
