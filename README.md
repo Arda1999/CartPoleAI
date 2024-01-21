@@ -7,40 +7,40 @@ This document describes in detail a reinforcement learning application using the
 
   
 
-Objectives of the Project: 
+## Objectives of the Project: 
 
 The Cart Pole task is the problem of controlling a car placed on a pole that needs to be kept in balance. 
 
   
 
-Algorithm Selection: 
+## Algorithm Selection: 
 
 In this project, the PPO (Proximal Policy Optimization) algorithm was preferred for the reinforcement learning task. PPO is an algorithm that has been successfully used in the reinforcement learning field and gives reliable results and the PPO algorithm was created as seen in the PPO.py file 
 
   
 
-Parameter Selection: 
+## Parameter Selection: 
 
 Several parameters have been selected that have an impact on the success and performance of the algorithm. For example, the number of timesteps was selected as 2000 and it was decided to make 100 timesteps in each learning step, and in this case, the changes in the graph were examined in each 100 timesteps and the maximum score value of 500 was reached in the average 7th stage. 
 
 
-Structure of the Project: 
+## Structure of the Project: 
 
  
 
-Code Structure: 
+## Code Structure: 
 
 The project was written in Python and used the Stable Baselines3 library, a framework used for reinforcement learning, and the PPO algorithm was created as seen in the PPO.py file. 
 
   
 
-Algorithm: 
+## Algorithm: 
 
 The algorithm used is PPO. The PPO allows the agent to interact with its environment by making policy updates and supports its learning in a stable way, and this algorithm was created in the PPO.py file and used in the cartPole.py file. 
 
   
 
-Parameters and Settings: 
+## Parameters and Settings: 
 
 The project was started with certain parameters. These parameters include learning speed, number of timesteps, policy update steps, reward processing method, and value function coefficients. 
 
@@ -70,16 +70,16 @@ It shows the standard deviation, which is about 90.00 in the initial stages, but
 
   
 
-Further Improvements and Areas of Study: 
+## Further Improvements and Areas of Study: 
 
   
 
-Longer Training: 
+## Longer Training: 
 
 By increasing the training time, the agent can be enabled to learn more complex strategies. For example, the total_timesteps value can be made 10000, but the project achieves the desired result total_timesteps 2000 and the car can keep the bar standing steadily. If we increase the num_episodes value, it is not preferred because it will increase the cost, the value of 100 works most accurately. 
 
 
-Graphics: 
+## Graphics: 
 
  
 
@@ -100,9 +100,9 @@ Example of graph the reward values after the training:
 
 As can be seen in the graphs, although there was very variable score values before the training, the values became constant after a certain point after the training. 
 
-Example Output:
+## Example Output:
 
-Before the train reward values:  
+## Before the train reward values:  
 
 Timestep 0: Mean reward: 22.65 Num episodes: 100 
 
@@ -310,7 +310,7 @@ Timestep 99: Mean reward: 21.67 Num episodes: 100\
 
  
 
-After the train reward values: 
+## After the train reward values: 
 
 Timestep 1: Mean reward: 127.99 +/- 59.54 
 
@@ -356,7 +356,7 @@ Timestep 1901: Mean reward: 500.00 +/- 0.00
 
  
 
-Project Information: 
+## Project Information: 
 
 Libraries Used: OpenAI Gym, Matplotlib, NumPy, Stable Baselines3 
 
