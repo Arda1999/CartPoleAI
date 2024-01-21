@@ -46,7 +46,6 @@ The project was started with certain parameters. These parameters include learni
 
 Values Included in the Project: 
 
- 
 
 num_episodes: 
 
